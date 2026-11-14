@@ -1,0 +1,11 @@
+{
+  "_synthetic": true,
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Проанализируй чертёж DRW-123456"
+      }
+    ]
+  }
+}

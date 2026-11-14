@@ -1,0 +1,7 @@
+{
+  "_synthetic": true,
+  "model": "qwen2.5:7b",
+  "apumi": {
+    "routing": "normal"
+  }
+}

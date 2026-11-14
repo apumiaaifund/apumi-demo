@@ -1,0 +1,11 @@
+{
+  "_synthetic": true,
+  "request": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Проверь: Ø25 f7, Ra 0.8, M8x1.25, ±0.05"
+      }
+    ]
+  }
+}
