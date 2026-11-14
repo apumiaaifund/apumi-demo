@@ -1,2 +1,4 @@
 demo/
 sample outputs: request_*.json, response_*.json, corpus_measurement.json
+.env
+.env.*
