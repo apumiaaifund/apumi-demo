@@ -1,8 +1,5 @@
 # Apumi — Engineering Filter · Public Demo
 
-<p align="center"><img src="assets/logo.svg" alt="logo" width="400"></p>
-
-
 > **Формулы не маскируются.**
 >
 > Ø25 f7, Ra 0.8, M8x1.25 доходят до LLM целыми. PII — вырезается. Инъекции — 403.
@@ -16,7 +13,7 @@
 | request_engineering.json / response_engineering.json | Формулы сохранены, LLM отвечает осмысленно |
 | request_injection.json / response_403.json | Инъекция заблокирована |
 | request_sensitive.json / response_sensitive.json | Чертёж → CPU-модель (routing) |
-| corpus_measurement.json | 573 строки, 5 стандартов, 100% |
+| corpus_measurement.json | 612 строк, 6 стандартов, 100% |
 
 ## Замер (воспроизводимо)
 
@@ -27,7 +24,8 @@
 | ISO 1302 (шероховатость) | makenexa/engineering-reference-data (CSV) | 12 | 100% |
 | ISO 261 (резьба) | clay-good/anvilate (CC0) | 20 | 100% |
 | ISO 2768 (общие допуски) | clay-good/anvilate (CC0) | 30 | 100% |
-| **Итого** | | **573** | **100.0%** |
+| ASTM E140 / ISO 18265 (твёрдость) | открытые таблицы (ручной перенос) | 40 | 100% |
+| **Итого** | | **612** | **100.0%** |
 
 _synthetic: false. Все источники машиночитаемые.
 
