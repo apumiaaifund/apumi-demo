@@ -1,26 +1,40 @@
-![PROVEN](https://img.shields.io/badge/PROVEN-29%20passed-brightgreen)
-
-
 <p align="center"><img src="assets/logo.svg" alt="logo" width="400"></p>
 
-<p align="center">
-  <img src="docs/logo.png" alt="apumi-demo" width="200"/>
-</p>
+![PROVEN](https://img.shields.io/badge/PROVEN-29%20passed-brightgreen)
 
-<h1 align="center">apumi-demo</h1>
+# Apumi
 
-<p align="center">
-  <b>Фреймворк финансовых стандартов — демо</b><br/>
-  APUM AI Fund — воспроизводимая финансовая аналитика
-</p>
+**Фильтр инженерных данных для LLM. Ø25 f7 и Ra 0.8 доходят до модели целыми.**
 
-## О продукте
-612 строк, 6 стандартов (ECB, EBA, IFRS, IVS, CSRD, GDPR).
+---
 
-## Выгоды
-Каждый стандарт — проверяемое утверждение, а не декларация в README. 29 passed.
-Готовый фундамент для финтех-продуктов, где важна регуляторика.
+## За 30 секунд
 
-## Связанные продукты
-Этот репозиторий является частью экосистемы [APUM AI Fund](https://github.com/apumiaaifund).
-Флагманский продукт: [apumia_credit](https://github.com/apumiaaifund/apumia_credit) (PROVEN 8/8).
+**Что это:** Заменяет инженерные формулы плейсхолдерами до PII-маскирования и восстанавливает после. Формула доходит до модели, PII вырезается, инъекции блокируются.
+
+**Кому:** Head of Engineering / CISO в precision engineering (Сингапур, ОАЭ).
+
+**Почему сейчас:** Обычный PII-фильтр видит 12.5±0.05 как «цифры» и маскирует. Инженер получает бессмысленный ответ. Apumi различает формулу и телефон.
+
+**Что доказано:** 612 строк, 6 международных стандартов (ISO 286, GB/T 1800, ISO 1302, ISO 261, ISO 2768, ASTM E140) — 100% сохранность, ноль провалов. 29 passed. _synthetic: false.
+
+**Чего не доказано (честно):** Твёрдость HRC/HB — synthetic-only. NER (ФИО) — Stage 4.
+
+---
+
+## Оффер
+
+Пилот €3–5K. Замер на данных клиента — критерий сохранности формул ≥95%.
+
+**Следующий шаг:** Покажу замер на реальном корпусе ISO 286/GB/T 1800 — 20 минут.
+
+---
+
+## GitHub
+
+- **Private code:** apumiaaifund/apumi
+- **Public demo:** apumiaaifund/apumi-demo
+
+## License
+
+MIT
