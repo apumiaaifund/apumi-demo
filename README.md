@@ -1,5 +1,8 @@
 # Apumi — Engineering Filter · Public Demo
 
+<p align="center"><img src="assets/logo.svg" alt="logo" width="400"></p>
+
+
 > **Формулы не маскируются.**
 >
 > Ø25 f7, Ra 0.8, M8x1.25 доходят до LLM целыми. PII — вырезается. Инъекции — 403.
